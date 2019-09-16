@@ -15,7 +15,7 @@ public class NewTest {
   
   @BeforeClass
   public void beforeClass() {
-	 System.setProperty("webdriver.chrome.driver","R:\\PythonSeleniumBDD\\driver\\chromedriver.exe");
+	 System.setProperty("webdriver.chrome.driver","/mavenproject/drivers/chromedriver.exe");
 	 driver = new ChromeDriver();
   }
   @AfterClass
