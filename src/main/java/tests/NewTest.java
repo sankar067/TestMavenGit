@@ -15,7 +15,7 @@ public class NewTest {
   
   @BeforeClass
   public void beforeClass() {
-	 System.setProperty("webdriver.chrome.driver","/mavenproject/drivers/chromedriver.exe");
+	 System.setProperty("webdriver.chrome.driver","../drivers/chromedriver.exe");
 	 driver = new ChromeDriver();
   }
   @AfterClass
